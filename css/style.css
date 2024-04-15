@@ -1,0 +1,672 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.3s ease;
+}
+
+/* NAV------------------------------------START */
+
+.nav {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 1vw;
+}
+
+.nav-sing {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img {
+    object-fit: cover;
+    width: 2vw;
+}
+
+.nav-sing li a {
+    text-decoration: none;
+}
+
+.nav-sing a {
+    color: #000;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    padding-bottom: 0.5vw;
+    border: 0.15vw solid transparent;
+}
+
+.nav-sing a:hover {
+    border-bottom: 0.15vw solid #0156ff;
+    color: #0156ff;
+}
+
+.sing-btn button {
+    color: #0156FF;
+    padding: 0.3vw 1.4vw;
+    border-radius: 2vw;
+    border: 0.15vw solid #0156FF;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 0.8vw;
+    font-weight: 600;
+}
+
+.sing-btn button:hover {
+    color: #fff;
+    background-color: #0156FF;
+
+}
+
+.nav-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-cart i {
+    color: #000;
+    font-size: 1.1vw;
+    cursor: pointer;
+}
+
+.nav-cart img {
+    object-fit: cover;
+    width: 1.1vw;
+    margin-left: 1.2vw;
+    cursor: pointer;
+}
+
+/* NAV------------------------------------END */
+
+/* BANNER1------------------------------------START */
+
+.banner1 {
+    border-top: 0.1vw solid #ACACAC;
+}
+
+.ban1-img {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.ban1-img img {
+    object-fit: contain;
+    width: 100%;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+/* BANNER1------------------------------------END */
+
+/* NEW PRODUCT TEXT------------------------------------START */
+
+.newtext {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.newtext-text1 p {
+    font-size: 1.2vw;
+    color: #000;
+    font-weight: 600;
+}
+
+.newtext-text2 a {
+    font-size: 0.75vw;
+    font-weight: normal;
+    color: #0156FF;
+}
+
+/* NEW PRODUCT TEXT------------------------------------END */
+
+/* NEW PRODUCT GRID------------------------------------START */
+
+.newgrid {
+    /* background-color: cyan; */
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1.4vw;
+}
+
+.new-info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgGrid {
+    object-fit: cover;
+    width: 8vw;
+}
+
+.iconStarfull {
+    color: #E9A426;
+    font-size: 0.8vw;
+}
+
+.iconStarnone {
+    color: #CACDD8;
+    font-size: 0.8vw;
+}
+
+.new-grid-grouptext {
+    margin-top: 0.5vw;
+}
+
+.text-star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5vw;
+}
+
+.text-star2 {
+    margin-left: 1vw;
+}
+
+.text-star2 p {
+    font-size: 0.7vw;
+    color: #A2A6B0;
+}
+
+.grid-text-1 p {
+    color: #000;
+    font-size: 0.75vw;
+    padding-bottom: 0.2vw;
+}
+
+.grid-text-2 {
+    margin-top: 0.5vw;
+}
+
+.gd-text-1 p {
+    color: #666;
+    font-size: 0.8vw;
+    text-decoration: line-through;
+}
+
+.gd-text-2 p {
+    color: #000;
+    font-size: 1vw;
+    font-weight: 600;
+} 
+
+/* NEW PRODUCT GRID------------------------------------END */
+
+/* BANNER2------------------------------------START */
+
+.banner2 {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 2vw;
+}
+
+.ban2-img img {
+    position: absolute;
+    width: 74vw;
+    top: 0;
+    right: 1vw;
+    z-index: -1;
+}
+
+.ban2-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ban2-text h1 {
+    font-size: 2vw;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: #272560;
+}
+
+.ban2-text-2 p {
+    padding-top: 0.3vw;
+    font-size: 1vw;
+    color: #272560;
+}
+
+.ban2-text-2 span {
+    font-weight: 600;
+}
+
+.ban2-text-2 a {
+    font-size: 0.8vw;
+    color: #272560;
+    text-decoration: underline;
+}
+
+.ban2-text-2 label {
+    font-weight: 600;
+    padding-top: 0.5vw;
+    font-size: 1.2vw;
+}
+
+/* BANNER2------------------------------------END */
+
+/* MAIN------------------------------------START */
+
+.main {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1.4vw;
+}
+
+.main-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-img {
+    position: absolute;
+    z-index: -1;
+}
+
+.main-grid-text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.2vw;
+    letter-spacing: 0.05vw;
+    font-weight: 600;
+}
+
+.main-grid-text-2, .main-grid-text {
+    margin-top: 5vw;
+}
+
+.main-grid-text-2 a {
+    color: #fff;
+    font-size: 0.7vw;
+    font-weight: 300;
+}
+
+.main-grid-item {
+    margin-top: 201vw;
+}
+
+.main-item {
+    margin-top: 1vw;
+}
+
+.mainImg {
+    object-fit: cover;
+    width: 20vw;
+}
+
+#mainImg {
+    object-fit: cover;
+    width: 12vw;
+}
+
+/* MAIN------------------------------------END */
+
+/* GEAR SHOW------------------------------------START */
+
+.gear {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2vw;
+}
+
+.gear-textgroup {
+    display: flex;
+}
+
+.gear-textgroup a {
+    color: #838383;
+    text-decoration: none;
+    margin-right: 2vw;
+    padding-bottom: 0.5vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    border-bottom: 0.15vw solid transparent;
+}
+
+.gear-textgroup a:hover {
+    color: #000;
+    border-bottom: 0.15vw solid #0156FF;
+}
+
+/* GEAR SHOW------------------------------------END */
+
+/* MAIN GEAR SHOW------------------------------------START */
+
+.main-gear-show {
+    margin-top: 2vw;
+}
+
+#imgGrid:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* MAIN GEAR SHOW------------------------------------END */
+
+/* BANNER LOGO BRAND------------------------------------START */
+
+.banner-brand {
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 4vw;
+}
+
+.brand-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imgBrand {
+    object-fit: contain;
+    width: 8vw;
+}
+
+/* BANNER LOGO BRAND------------------------------------END */
+
+/* HERO DESC ------------------------------------START */
+
+.hero-desc {
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 4vw;
+}
+
+.hero-text h2 {
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+    font-weight: 600;
+}
+
+/* HERO DESC ------------------------------------END */
+
+/* HERO MAIN ------------------------------------START */
+
+.hero {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0.7vw;
+}
+
+.hero-info {
+    padding: 0.5vw 0.5vw;
+    border-radius: 1vw;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+#heroImg {
+    object-fit: cover;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    width: 10vw;
+}
+
+.hero-info {
+    margin-bottom: 2vw;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    margin-top: 0.2vw;
+}
+
+.hero-text p {
+    text-align: center;
+    font-size: 0.6vw;
+    padding: 0.5vw 1vw;
+    color: #000;
+}
+
+.hero-text-2  {
+    text-align: center;
+}
+
+.hero-text-2 p {
+    font-size: 0.5vw;
+    color: #A2A6B0;
+}
+
+/* HERO MAIN ------------------------------------END */
+
+/* BANNER DESC ------------------------------------START */
+
+.banner-desc {
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ban-desc-text1 p {
+    font-size: 1vw;
+    font-weight: normal;
+}
+
+.ban-desc-text2 {
+    text-align: end;
+}
+
+.ban-desc-text2 p {
+    font-size: 0.9vw
+}
+
+.ban-desc-btn {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ban-desc-btn button {
+    border: 0.15vw solid #0156FF;
+    color: #0156FF;
+    background-color: #fff;
+    padding: 0.5vw 1.5vw;
+    border-radius: 1vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ban-desc-btn button:hover {
+    color: #fff;
+    background-color: #0156FF;
+}
+
+.desc-dot {
+    display: flex;
+}
+
+.desc-realdot1 {
+    width: 0.8vw;
+    height: 0.8vw;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 0.5vw;
+}
+
+.desc-realdot2 {
+    background-color: #0156FF;
+}
+
+.banner-desc-img img {
+    object-fit: contain;
+    width: 60vw;
+    border-radius: 2vw;
+}
+
+.banner-desc-img {
+    position: absolute;
+    z-index: -1;
+}
+
+/* BANNER DESC ------------------------------------END */
+
+/* PRODUCT SUP ------------------------------------START */
+
+.product-sup {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 8vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pro-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-Icon {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background-color: #0156FF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.info-Icon:hover {
+    background-color: #000;
+}
+
+.info-text1, .info-text2 {
+    margin-top: 1vw;
+}
+
+.info-Icon i {
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.info-text1 h2 {
+    font-size: 1.1vw;
+}
+
+.info-text2 p {
+    font-size: 0.8vw;
+    color: #6b6d74;
+}
+
+/* PRODUCT SUP ------------------------------------END */
+
+/* FOOTER ------------------------------------START */
+
+.top-footer{
+    border-top: 0.1vw solid #ACACAC;
+    border-bottom: 0.1vw solid #ACACAC;
+    margin-top: 5vw;
+}
+
+footer {
+    padding: 1vw 0vw;
+    text-align: center;
+    color: #000;
+}
+
+.footer-icon {
+    animation: iconGit 4s infinite;
+}
+
+.footer-icon a {
+    color: #000;
+    font-size: 3vw;
+    text-decoration: none;
+    font-size: 3vw;
+}
+
+@keyframes iconGit {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-2px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+.footer-icon a:hover {
+    color: rgb(0 0 0 / 50%);
+}
+
+.footer-text a {
+    font-size: 1vw;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+}
+
+.footer-text i {
+    margin-left: 0.5vw;
+}
+
+.footer-text a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    border-left: 2px solid #000;
+    animation: footerTyping 6s steps(40) infinite;
+}
+
+@keyframes footerTyping {
+    70%{
+        left: 100%;
+        margin: 0 0.5vw;
+    }
+}
+
+/* FOOTER ------------------------------------END */
+
+
